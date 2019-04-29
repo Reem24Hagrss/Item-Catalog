@@ -12,36 +12,37 @@
         4- Flask 
         5- Oauth2 (for login)
 
-### The DataBase Used :
+### The DataBase Used :##
 The database named `restaurantmenuwithusers` and includes three tables :
-1- The `user` table includes information about the users.
-2- The `restaurant` table includes the resturant which favourite for this user.
-3- The `menu_item` table includes the menu item in each restaurant.
+> * The `user` table includes information about the users.
+> * The `restaurant` table includes the resturant which favourite for this user.
+> * The `menu_item` table includes the menu item in each restaurant.
 
-## Steps Required : 
+## Steps Required : ##
 (For windows user install git in the first)
-1- Install Virtual Machine.
-2- Install Vagrant.
-3- Download the VM Configuration  and unZip the file .
-4- Open the terminal inside the unzip directory .
-5- Change terminal with `cd` inside the vagrant directory .
-6- Run `vagrant up` command to open the VM.
-7- Run `vagrant ssh` command to log  into the VM.
-8- Install python3 `sudo apt-get install python3`.
-9- Install pip3 `sudo apt-get install pip3`.
-10- Install sqlalchemy `sudo pip3 install sqlalchemy`.
-11- Install Flask `sudo pip3 install flask`.
-12- Open the terminal in the app folger.
-13- Creating the database `python3 database_setup.py`.
-14- Adding some elements to database `python3 lotsofmenuitem.py`.
-15- Run the applecation `python3 project.py`.
-16- Open browser in `http://0.0.0.0:5000/`.
-### View JSON endpoints:
-1- JSON APIs to view Restaurant
+> * Install Virtual Machine.
+> * Install Vagrant.
+> * Download the VM Configuration  and unZip the file .
+> * Open the terminal inside the unzip directory .
+> * Change terminal with `cd` inside the vagrant directory .
+> * Run `vagrant up` command to open the VM.
+> * Run `vagrant ssh` command to log  into the VM.
+> * Install python3 `sudo apt-get install python3`.
+> * Install pip3 `sudo apt-get install pip3`.
+> * Install sqlalchemy `sudo pip3 install sqlalchemy`.
+> * Install Flask `sudo pip3 install flask`.
+> * Open the terminal in the app folger.
+> * Creating the database `python3 database_setup.py`.
+> * Adding some elements to database `python3 lotsofmenuitem.py`.
+> * Run the applecation `python3 project.py`.
+> * Open browser in `http://0.0.0.0:5000/`.
+
+### View JSON endpoints: ##
+> * JSON APIs to view Restaurant
     ``/restaurant/JSON``.
-2- JSON APIs to view Restaurant Information 
+> * JSON APIs to view Restaurant Information 
     ``/restaurant/<int:restaurant_id>/menu/JSON``.
-3- JSON APIs to view Menu Item Information
+> * JSON APIs to view Menu Item Information
     ``/restaurant/<int:restaurant_id>/menu/<int:menu_id>/JSON``.
 
 ### Downloading Links : ###

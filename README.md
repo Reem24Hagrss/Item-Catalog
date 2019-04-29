@@ -46,6 +46,6 @@ The database named `restaurantmenuwithusers` and includes three tables :
     ``/restaurant/<int:restaurant_id>/menu/<int:menu_id>/JSON``.
 
 ### Downloading Links : ###
-1- [Virtual Machine](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1).
-2- [Vagrant](https://www.vagrantup.com/).
-3- [VM Configuration](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip).
+* [Virtual Machine](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1).
+* [Vagrant](https://www.vagrantup.com/).
+* [VM Configuration](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip).
